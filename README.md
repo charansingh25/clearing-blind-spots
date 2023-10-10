@@ -31,4 +31,7 @@ Check out the tinkercad model of the connections - [TinkerCAD](https://www.tinke
 
 Each sensor has 4 pins, Trig, Echo, Vcc and GND. Trig pin corresponds to the transmitter which transmits the ultrasonic pulse . Echo pin corresponds to the Receiver, which receives the reﬂected ultrasonic wave. The Time delay between the transmission and receiving of the pulse depends on the distance between the sensor and the obstacles. The Vcc pin of all 4 sensors is connected to the 5v supply on the arduino chip using the breadboard. Similarly, the GND pin of each sensor is connected to the ground of the arduino. The other two pins are connected to any two of the 13 Digital I/O pins on the microprocessor
 
+![image](https://github.com/charansingh25/clearing-blind-spots/assets/104901834/8af2616e-f827-46ec-bdd4-8dfc8b3f0edc)
+
+
 
