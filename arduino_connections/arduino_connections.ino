@@ -3,7 +3,12 @@
 long distancel, distance2, distance3, distance4;
 int trigpin1=12,trigpin2=12,trigpin3=12, trigpin4=12; 
 int echopin1=11, echopin2=10, echopin3=9, echopin4=6;
+
+// declaring all pins
+
 int duration;
+
+// declaring durations
 
 void setup()
 {
@@ -16,12 +21,16 @@ void setup()
   pinMode (trigpin4, OUTPUT); 
   pinMode (echopin4, INPUT);
   Serial.begin(9600);
+
+  // for beigining of the connections
 }
 
 
 
 void loop()
 {
+
+  //getting details from the getdistance() functions
 
   distance1=getdistance (trigpinl, echopin1); 
   distance2=getdistance (trigpin2, echopin2); 
@@ -41,11 +50,16 @@ void loop()
 
 long getdistance (int trigPin, int echoPin)
 {
+
   // Clears the trigPin condition
   digitalWrite(trigPin, LOW);
+  // low means - 0
+
   delayMicroseconds (2);
   // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
   digitalWrite(trigPin, HIGH);
+  // high means - 1
+  
   delayMicroseconds (10);
   digitalWrite(trigPin, LOW);
   // Reads the echopin, returns the sound wave travel time in microseconds duration = pulse In (echoPin, HIGH);
