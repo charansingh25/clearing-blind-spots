@@ -1,5 +1,6 @@
 # Clearing Blind spots Using Ultrasonic sound sensors
 
+![image](https://github.com/charansingh25/clearing-blind-spots/assets/104901834/d2c0d5e7-b1c4-42f7-bc7a-cc9c59c76218)
 
 ## Objetive and summary
 * An Iot and sensors based project in which we developed a cost-effective solution to assist vehicle drivers in clearing blind
@@ -12,6 +13,9 @@ on proximity forimproved driver awarenes
 ## TinkerCAD
 
 Check out the tinkercad model of the connections - [TinkerCAD](https://www.tinkercad.com/things/desTyeIwnWf-serial-communication-attempt/editel?sharecode=NzNrlqZZhKk1uK5iBHZDVh_5k9bap95PaLXEoZBweaU)
+
+
+![image](https://github.com/charansingh25/clearing-blind-spots/assets/104901834/9d250293-75d2-4984-8d7d-044e8d80dd63)
 
 
 ## Arduino 
